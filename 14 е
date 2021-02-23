@@ -1,0 +1,18 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+int y,x;
+bool d=false;
+cin >> x;
+cin >> y;
+if((x==0) or (y==0)){
+    d = true;
+}
+if (d==true){
+   cout << "true"; 
+}
+else{
+    cout << "false";
+}
+}
