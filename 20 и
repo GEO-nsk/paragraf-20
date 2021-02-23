@@ -1,0 +1,14 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+float x,y;
+cin >> x;
+cin >> y;
+if((x*x + y*y <= 1) or (x>=0) and (y>=0) and (y<=1) and (x<=1)){
+cout << "YES";
+}
+else{
+cout << "NO";
+}
+}
