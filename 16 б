@@ -1,0 +1,19 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+int a,b,c;
+bool d=false;
+cin >> a;
+cin >> b;
+cin >> c;
+if((a%10==1) and (b%10==1) and (c%10==1)){
+    d = true;
+}
+if (d==true){
+   cout << "true"; 
+}
+else{
+    cout << "false";
+}
+}
