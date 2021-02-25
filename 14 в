@@ -6,7 +6,7 @@ int y,x;
 bool d=false;
 cin >> x;
 cin >> y;
-if((x>0) and (x>0)){
+if((x>0) and (y>0)){
     d = true;
 }
 if (d==true){
